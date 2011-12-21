@@ -6,7 +6,8 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 	
-	error_reporting(0);
+	    error_reporting(0);
+        $this->load->helper('url');
 		$this->load->helper('jlang');
 		
 		
